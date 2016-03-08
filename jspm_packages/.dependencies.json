@@ -195,5 +195,35 @@
     "aurelia-pal": "npm:aurelia-pal@^1.0.0-beta.1.1.1"
   },
   "github:github/fetch@0.11.0": {},
-  "github:components/jquery@2.2.1": {}
+  "github:components/jquery@2.2.1": {},
+  "npm:react-dom@0.14.7": {
+    "react": "npm:react@^0.14.7"
+  },
+  "npm:lodash.kebabcase@4.0.0": {
+    "lodash.deburr": "npm:lodash.deburr@^4.0.0",
+    "lodash.words": "npm:lodash.words@^4.0.0"
+  },
+  "npm:lodash.words@4.0.0": {
+    "lodash.tostring": "npm:lodash.tostring@^4.0.0"
+  },
+  "npm:lodash.deburr@4.0.0": {
+    "lodash.tostring": "npm:lodash.tostring@^4.0.0"
+  },
+  "npm:react@0.14.7": {
+    "fbjs": "npm:fbjs@^0.6.1",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:aurelia-react-loader@1.0.4": {
+    "lodash.kebabcase": "npm:lodash.kebabcase@4.0.0",
+    "react": "npm:react@^0.14.7",
+    "react-dom": "npm:react-dom@^0.14.7",
+    "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1.1.6",
+    "aurelia-templating": "npm:aurelia-templating@^1.0.0-beta.1.1.2"
+  },
+  "npm:lodash.tostring@4.1.2": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:fbjs@0.6.1": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
 }
